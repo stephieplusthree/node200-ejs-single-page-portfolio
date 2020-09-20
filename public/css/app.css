@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: blue;
     color: #dddddd;
@@ -9,12 +13,15 @@ body {
     background: white;
     height: 100px;
     width: 200px;
+    text-align: center;
 }
 
 .content-area {
-    background-color: white;
     margin-left: 35%;
     width: 65%;
+    background: white;
+    height: 100%;
+    padding: 0 0 0 25%;
 }
 
 .info-section {
@@ -36,7 +43,7 @@ h4 {
     font-size: 1.2em;
     color: #fefefe;
     margin: 0.7em 0;
-    line-height: 1.7em;
+    /* line-height: 1.7em; */
 }
 
 p {
@@ -44,7 +51,7 @@ p {
     font-weight: 300;
     color: #fefefe;
     margin: 0.2em 0 1.6em;
-    line-height: 1.7em;
+    /* line-height: 1.7em; */
     font-family: 'Barlow Condensed', sans-serif;
 }
 

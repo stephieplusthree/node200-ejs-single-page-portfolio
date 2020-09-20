@@ -1,10 +1,55 @@
 body {
-    background-color: #444444;
+    background-color: blue;
     color: #dddddd;
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.logo {
+    background: white;
+    height: 100px;
+    width: 200px;
+}
+
+.content-area {
+    background-color: white;
+    margin-left: 35%;
+    width: 65%;
+}
+
+.info-section {
+    padding: 54px;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.info-box {
+    position: absolute;
+    bottom: 60px;
+    line-height: 1.7em;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #fefefe;
+    margin: 0.7em 0;
+    line-height: 1.7em;
+}
+
+p {
+    font-size: .9em;
+    font-weight: 300;
+    color: #fefefe;
+    margin: 0.2em 0 1.6em;
+    line-height: 1.7em;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 
-/* start of css reset */
+/*//////////////////////////// start of css reset //////////////////////////////*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -54,4 +99,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* end of reset */
+/*//////////////////////////////// end of reset /////////////////////////*/

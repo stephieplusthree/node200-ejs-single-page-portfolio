@@ -21,7 +21,8 @@ body {
     width: 65%;
     background: white;
     height: 100%;
-    padding: 0 0 0 25%;
+    /* padding: 0 0 0 25%; */
+    color: black;
 }
 
 .info-section {
@@ -46,7 +47,7 @@ h4 {
     /* line-height: 1.7em; */
 }
 
-p {
+h3 {
     font-size: .9em;
     font-weight: 300;
     color: #fefefe;
@@ -55,6 +56,14 @@ p {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+.profile {
+    color: black;
+}
+
+.img-container {
+    width: 400px;
+    height: 500px;
+}
 
 /*//////////////////////////// start of css reset //////////////////////////////*/
 

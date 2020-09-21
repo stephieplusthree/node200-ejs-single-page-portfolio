@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: blue;
+    background-color: #E34659;
     color: #dddddd;
     font-size: 18px;
     font-family: 'Barlow Condensed', sans-serif;
@@ -87,13 +87,13 @@ h5 {
 
 .name {
     font-size: 2.3rem;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.7rem;
-    margin: 0 0 1.7rem;
+    margin: 0 0 1rem;
 }
 
 span {
-    color: blue;
+    color: #E34659;
 }
 
 .user-img {

@@ -15,16 +15,27 @@ body {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    color: #E34659;
+    text-align: center;
     padding: 10px;
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: white;
+    margin-right: 15px;
 }
 
 .ghost-btn {
     border: 4px solid #E34659;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: #E34659;
+    padding: 8px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
 }
 
 .logo {
@@ -70,7 +81,7 @@ h4 {
 }
 
 h3 {
-    font-size: .9em;
+    font-size: 1.1rem;
     font-weight: 300;
     color: #fefefe;
     margin: 0.2em 0 1.6em;
@@ -81,6 +92,7 @@ h3 {
 
 h5 {
     font-size: 1.1rem;
+    font-weight: 300;
     margin: 0.02rem;
 }
 

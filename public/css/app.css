@@ -10,6 +10,15 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+.hamburger-icon {
+    position: fixed;
+    right: 0;
+    font-size: 2rem;
+    color: #E34659;
+    right: 56px;
+    top: 56px;
+}
+
 .primary-btn {
     background: #E34659;
     -webkit-border-radius: 20px;
@@ -104,6 +113,7 @@ h5 {
     left: 325px;
     font-family: 'Baloo Tammudu 2', cursive;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    width: 550px;
 }
 
 .img-container {
@@ -129,7 +139,7 @@ p {
     color: #555555;
     font-size: 1.4rem;
     font-weight: 300;
-    margin: 0 0 2rem;
+    /* margin: 0 0 2rem; */
 }
 
 .name {

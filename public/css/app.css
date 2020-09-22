@@ -6,7 +6,8 @@ body {
     background-color: #E34659;
     color: #dddddd;
     font-size: 18px;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .logo {
@@ -21,12 +22,13 @@ body {
     /* width: 65%; */
     background: white;
     height: 100%;
+    width: 100%;
     /* padding: 0 0 0 25%; */
     color: black;
     display: inline-block
 }
 
-.info-section {
+.info-div {
     padding: 54px;
     width: 35%;
     position: absolute;
@@ -39,6 +41,8 @@ body {
     position: absolute;
     bottom: 60px;
     line-height: 1.7em;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 h4 {
@@ -54,7 +58,8 @@ h3 {
     color: #fefefe;
     margin: 0.2em 0 1.6em;
     /* line-height: 1.7em; */
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 h5 {
@@ -64,32 +69,45 @@ h5 {
 
 .profile {
     color: black;
-    /* display: inline-block; */
-    left: 300px;
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+    left: 325px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .img-container {
     display: inline-block;
-    width: 50%;
+    width: 100%;
     position: relative;
     height: 100%;
+    margin-left: auto;
 }
 
-.profile-section {
-    /* margin-right: 35%; */
+.profile-div {
+    padding: 250px 700px 0 0;
     background: white;
     height: 100%;
     color: black;
     display: inline-block;
-    vertical-align: top;
+    /* vertical-align: top; */
     line-height: 1.7em;
+    max-width: 500px;
+}
+
+p {
+    color: #555555;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 0 0 2rem;
 }
 
 .name {
     font-size: 2.3rem;
-    font-weight: 700;
-    line-height: 1.7rem;
-    margin: 0 0 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin: 0 0 2rem;
 }
 
 span {
@@ -126,7 +144,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, nav, output, ruby, div, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -137,7 +155,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, div {
 	display: block;
 }
 body {

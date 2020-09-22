@@ -12,11 +12,11 @@ body {
 
 .hamburger-icon {
     position: fixed;
-    right: 0;
     font-size: 2rem;
     color: #E34659;
-    right: 56px;
-    top: 56px;
+    right: 36px;
+    top: 36px;
+    padding: 20px;
 }
 
 .primary-btn {

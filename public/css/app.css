@@ -77,20 +77,21 @@ body {
 .info-box {
     position: absolute;
     bottom: 60px;
+    font-size: 1.2em;
     line-height: 1.7em;
     font-family: 'Baloo Tammudu 2', cursive;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 h4 {
-    font-size: 1.2em;
+    font-size: 1.7em;
     color: #fefefe;
     margin: 0.7em 0;
     /* line-height: 1.7em; */
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 300;
     color: #fefefe;
     margin: 0.2em 0 1.6em;
@@ -99,8 +100,12 @@ h3 {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-h5 {
-    font-size: 1.1rem;
+.icon-div {
+    margin-right: 15px;
+}
+
+title {
+    font-size: 2rem;
     font-weight: 300;
     margin: 0.02rem;
 }
@@ -110,10 +115,12 @@ h5 {
     display: inline-block;
     position: absolute;
     right: 200px;
-    left: 325px;
+    left: 390px;
     font-family: 'Baloo Tammudu 2', cursive;
     font-family: 'Barlow Semi Condensed', sans-serif;
     width: 550px;
+    top: 400px;
+    font-size: 1.4rem;
 }
 
 .img-container {
@@ -139,14 +146,14 @@ p {
     color: #555555;
     font-size: 1.4rem;
     font-weight: 300;
-    /* margin: 0 0 2rem; */
+    bottom: 100px;
 }
 
 .name {
-    font-size: 2.3rem;
+    font-size: 3.3rem;
     font-weight: 500;
-    line-height: 1.2rem;
-    margin: 0 0 2rem;
+    line-height: 1.7rem;
+    margin: 0 0 3rem;
 }
 
 span {

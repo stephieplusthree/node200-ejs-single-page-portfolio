@@ -30,6 +30,10 @@ app.get('/contact', (req, res) => {
     res.render('contact');
 });
 
+app.get('/resume', (req, res) => {
+    res.render('resume', { title: 'Resume Page', });
+});
+
 app.post('/thanks', (req, res) => {
     res.render('thanks', { contact: req.body })
 });

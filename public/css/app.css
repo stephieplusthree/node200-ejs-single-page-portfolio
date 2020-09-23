@@ -115,9 +115,10 @@ h3 {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-.icon-div {
-    margin-right: 15px;
+.icon-div, a {
+    margin-right: 25px;
     color: #F96C85;
+    text-decoration: none;
 }
 
 li, ul {
@@ -191,6 +192,9 @@ span {
     top: 56px;
     left: -200px;
     width: 500px;
+    -webkit-box-shadow: 35px 20px 5px 5px rgba(26,24,26,0.67);
+-moz-box-shadow: 35px 20px 5px 5px rgba(26,24,26,0.67);
+box-shadow: 35px 20px 5px 5px rgba(26,24,26,0.67);
     height: calc(100% - 112px);
         background: url("../images/self.jpg") no-repeat center center; 
         -webkit-background-size: cover;

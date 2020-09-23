@@ -11,12 +11,27 @@ body {
 }
 
 .hamburger-icon {
-    position: fixed;
-    font-size: 2rem;
+    position: absolute;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     color: #E34659;
     right: 36px;
     top: 36px;
     padding: 20px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+a.nav-link{
+    color: #E34659;
+    text-decoration: none;
+    text-align: right;
+    
+}
+
+li, ul{
+    text-align: right;
 }
 
 .primary-btn {
@@ -79,7 +94,6 @@ body {
     bottom: 60px;
     font-size: 1.2em;
     line-height: 1.7em;
-    font-family: 'Baloo Tammudu 2', cursive;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -104,6 +118,10 @@ h3 {
     margin-right: 15px;
 }
 
+li, ul {
+    text-align: left;
+}
+
 title {
     font-size: 2rem;
     font-weight: 300;
@@ -119,7 +137,7 @@ title {
     font-family: 'Baloo Tammudu 2', cursive;
     font-family: 'Barlow Semi Condensed', sans-serif;
     width: 550px;
-    top: 400px;
+    top: 250px;
     font-size: 1.4rem;
 }
 

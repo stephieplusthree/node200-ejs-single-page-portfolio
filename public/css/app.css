@@ -3,10 +3,9 @@
 }
 
 body {
-    background-color: #E34659;
+    background-color: #F96C85;
     color: #dddddd;
     font-size: 18px;
-    font-family: 'Baloo Tammudu 2', cursive;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -15,7 +14,7 @@ body {
     font-size: 1.2em;
     line-height: 1.7em;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #E34659;
+    color: white;
     right: 36px;
     top: 36px;
     padding: 20px;
@@ -24,10 +23,9 @@ body {
 }
 
 a.nav-link{
-    color: #E34659;
+    color: black;
     text-decoration: none;
     text-align: right;
-    
 }
 
 li, ul{
@@ -35,7 +33,7 @@ li, ul{
 }
 
 .primary-btn {
-    background: #E34659;
+    background: white;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -44,17 +42,17 @@ li, ul{
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: white;
+    color: #F96C85;
     margin-right: 15px;
 }
 
 .ghost-btn {
-    border: 4px solid #E34659;
+    border: 4px solid white;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-align: center;
-    color: #E34659;
+    color: white;
     padding: 8px 20px;
     display: inline-block;
     text-transform: uppercase;
@@ -62,17 +60,21 @@ li, ul{
     
 }
 
-.logo {
-    background: white;
+img {
     height: 100px;
-    width: 200px;
-    text-align: center;
+    width: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: white;
+    line-height: 0; */
 }
 
 .content-area {
     margin-left: 35%;
     /* width: 65%; */
-    background: white;
+    background: #F96C85;
     height: 100%;
     width: 100%;
     /* padding: 0 0 0 25%; */
@@ -87,6 +89,7 @@ li, ul{
     top: 0;
     bottom: 0;
     left: 0;
+    background: white;
 }
 
 .info-box {
@@ -99,7 +102,7 @@ li, ul{
 
 h4 {
     font-size: 1.7em;
-    color: #fefefe;
+    color: #0B0A0A;
     margin: 0.7em 0;
     /* line-height: 1.7em; */
 }
@@ -107,15 +110,14 @@ h4 {
 h3 {
     font-size: 2rem;
     font-weight: 300;
-    color: #fefefe;
+    color: #F96C85;
     margin: 0.2em 0 1.6em;
-    /* line-height: 1.7em; */
-    font-family: 'Baloo Tammudu 2', cursive;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .icon-div {
     margin-right: 15px;
+    color: #F96C85;
 }
 
 li, ul {
@@ -126,10 +128,15 @@ title {
     font-size: 2rem;
     font-weight: 300;
     margin: 0.02rem;
+    color: white;
+}
+
+h5 {
+    color: white;
 }
 
 .profile {
-    color: black;
+    color: white;
     display: inline-block;
     position: absolute;
     right: 200px;
@@ -139,6 +146,7 @@ title {
     width: 550px;
     top: 250px;
     font-size: 1.4rem;
+    background: #F96C85;
 }
 
 .img-container {
@@ -151,9 +159,9 @@ title {
 
 .profile-div {
     padding: 250px 700px 0 0;
-    background: white;
+    background: #F96C85;
     height: 100%;
-    color: black;
+    color: white;
     display: inline-block;
     /* vertical-align: top; */
     line-height: 1.7em;
@@ -161,7 +169,7 @@ title {
 }
 
 p {
-    color: #555555;
+    color: white;
     font-size: 1.4rem;
     font-weight: 300;
     bottom: 100px;
@@ -175,7 +183,7 @@ p {
 }
 
 span {
-    color: #E34659;
+    color: #FFA495;
 }
 
 .user-img {

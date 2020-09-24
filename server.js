@@ -34,6 +34,10 @@ app.get('/resume', (req, res) => {
     res.render('resume', { title: 'Resume Page', });
 });
 
+app.get('/portfolio', (req, res) => {
+    res.render('portfolio', { title: 'Portfolio Page', });
+});
+
 app.post('/thanks', (req, res) => {
     res.render('thanks', { contact: req.body })
 });

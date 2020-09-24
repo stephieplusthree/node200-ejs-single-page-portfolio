@@ -135,7 +135,7 @@ h5 {
     right: 200px;
     left: 390px;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    width: 550px;
+    /* width: 750px; */
     top: 250px;
     font-size: 1.7rem;
     background: #F96C85;
@@ -234,7 +234,7 @@ div.profile-description {
     right: 200px;
     left: 90px;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    width: 550px;
+    width: 640px;
     top: 250px;
     font-size: 1.7rem;
     background: #F96C85;
@@ -279,7 +279,22 @@ div.profile-description {
 .margale-timeline {
     line-height: 1.4;
 }
-                
+            
+.margale-container {
+    margin-right: 20px;
+    -webkit-box-shadow: 35px 20px 5px 5px rgba(26,24,26,0.67);
+    -moz-box-shadow: 35px 20px 5px 5px rgba(26,24,26,0.67);
+    box-shadow: 35px 20px 5px 5px rgba(26,24,26,0.67);
+}
+
+.experience1-2 {
+    display: flex;
+}
+
+.bressi-ranch {
+    margin-right: 0;
+    text-align: right;
+}
 /* ///////////////////end of resume page ///////////////////////*/
 
 

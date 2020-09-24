@@ -220,6 +220,7 @@ div.resume-title {
 div.profile-description {
     padding: 250px 700px 0 0;
     background: #F96C85;
+    opacity: 0.3;
     height: 100%;
     color: white;
     display: inline-block;
@@ -266,26 +267,26 @@ div.profile-description {
     text-transform: uppercase;
 }
 
-.margale-title {
+.margale-title, .bressi-title, .dentalPremier-title, .reder-title {
     line-height: 1.4;
     font-size: 2rem;
     color:  #0B0A0A;
 }
 
-.margale-name {
+.margale-name, .bressi-name, .dentalPremier-name, .reder-name {
     line-height: 1.4;
 }
                 
-.margale-timeline {
+.margale-timeline, .bressi-timeline, .dentalPremier-timeline, .reder-timeline {
     line-height: 1.4;
 }
             
-.margale-container {
+.margale-container, .bressi-ranch, .dentalPremier-container, .reder-container {
     margin-right: 20px;
     width: 50%;
 }
 
-.experience1-2 {
+.experience1-2, .experience3-4 {
     display: flex;
 }
 

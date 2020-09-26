@@ -5,7 +5,7 @@
 body {
     background-color: #F96C85;
     color: #dddddd;
-    font-size: 18px;
+    /* font-size: 1.7rem: 18px; */
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -53,7 +53,7 @@ li, ul{
     border-radius: 30px;
     text-align: center;
     color: #F96C85;
-    padding: 12px 20px;
+    padding: 8px 13px;
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -87,20 +87,20 @@ img {
 .info-box {
     position: absolute;
     bottom: 60px;
-    font-size: 1.7em;
+    
     line-height: 1.7em;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 h4 {
-    font-size: 1.7em;
+    font-size: 1rem;
     color: #0B0A0A;
     margin: 0.7em 0;
     /* line-height: 1.7em; */
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 300;
     color: #F96C85;
     margin: 0.2em 0 1.6em;
@@ -115,17 +115,18 @@ h3 {
 
 li, ul {
     text-align: left;
+    font-size: 1.4px;
 }
 
 div.title {
-    font-size: 2.3rem;
+    font-size: 1.4rem;
     margin: 0.02rem;
     color: #0B0A0A;
 }
 
 h5 {
     color: #0B0A0A;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .profile {
@@ -135,21 +136,22 @@ h5 {
     right: 200px;
     left: 390px;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    width: 1020px;
-    top: 230px;
-    font-size: 1.7rem;
+    width: 520px;
+    top: 53px;
+    font-size: 1rem;
     background: #F96C85;
     text-align: justify;
-    line-height: 1.7rem;
+    line-height: 1.4rem;
 }
 
 .div.aboutme {
     line-height: 1.7rem;
+    font-size: 1rem!;
 }
 
 .profile-paragraph {
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 200;
     bottom: 100px;
     text-align: justify;
@@ -177,18 +179,20 @@ h5 {
 
 p {
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 200;
     bottom: 100px;
     text-align: justify;
 }
 
 .name {
-    font-size: 4.3rem;
-    font-weight: 500;
-    line-height: 2.3rem;
-    margin: 0 0 3rem;
+    font-size: 50px;
+    font-weight: 500px;
+    line-height: 1.7rem;
+    margin: 0 0 2rem;
 }
+
+
 
 span {
     color: #FF8197;
@@ -212,6 +216,127 @@ span {
 
 
 /*/////////////// start of resume page//////////////////// */
+div.resume-container {
+    padding: 75px 650px 100px 0;
+    background: #F96C85;
+    height: 100%;
+    color: white;
+    margin-left: 30px;
+    display: inline-block;
+    line-height: 1.7rem;
+    max-width: 500px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+div.resume-title {
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    margin: 0 0 3rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+div.profile-description {
+    padding: 250px 700px 0 0;
+    background: #F96C85;
+    opacity: 0.3;
+    height: 100%;
+    color: white;
+    display: inline-block;
+    line-height: 1.7rem;
+    max-width: 500px;
+    font-size: 1.2rem;
+}
+
+div.resume-des{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.resume-profile {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+    left: 90px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    width: 640px;
+    top: 75px;
+    font-size: 1.2rem;
+    background: #F96C85;
+}
+
+.profile-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    margin: 0 0 2rem;
+    text-transform: uppercase;
+}
+
+div.left-profile-bulletpoint {
+    color: #0B0A0A;
+    list-style-type: circle;
+    display: flex;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 200;
+    bottom: 100px;
+    text-align: justify;
+    line-height: 1.7rem;
+}
+
+div.profile-experience {
+    top: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    margin: 0 0 1rem;
+    text-transform: uppercase;
+}
+
+div.margale-title{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: black;
+    font-weight: 500;
+}
+div.margale-title, div.bressi-title, div.dentalPremier-title, div.reder-title {
+    line-height: 1.7rem;
+    font-size: 1.4rem;
+    color:  #0B0A0A;
+    font-weight: 500;
+}
+
+div.margale-name, div.bressi-name, div.dentalPremier-name, div.reder-name {
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
+                
+div.margale-timeline, div.bressi-timeline, div.dentalPremier-timeline, div.reder-timeline {
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
+            
+.margale-container, .bressi-ranch, .dentalPremier-container, .reder-container {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.experience1-2, .experience3-4 {
+    display: flex;
+}
+
+.bressi-ranch {
+    margin-right: 0;
+    text-align: right;
+    width: 50%;
+}
+/* ///////////////////end of resume page ///////////////////////*/
+
+
+/* //////////////////start of portfolio page/////////////////////// */
 div.resume-container {
     padding: 75px 650px 100px 0;
     background: #F96C85;
@@ -258,10 +383,10 @@ div.profile-description {
 }
 
 .profile-name {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.7rem;
-    margin: 0 0 2rem;
+    margin: 0 0 1rem;
     text-transform: uppercase;
 }
 
@@ -311,7 +436,8 @@ div.profile-description {
     text-align: right;
     width: 50%;
 }
-/* ///////////////////end of resume page ///////////////////////*/
+
+/* /////////////////////////end of portfolio page//////////////////////// */
 
 
 /*//////////////////////////// start of css reset //////////////////////////////*/
